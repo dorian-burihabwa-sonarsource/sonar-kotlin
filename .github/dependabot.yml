@@ -1,7 +1,7 @@
 version: 2
 updates:
   - package-ecosystem: "maven"
-    directory: "/its/plugin/projects/tests-surefire-suffix/"
+    directory: "/its/plugin/projects/tests-surefire-suffix"
     ignore:
       dependency-name: "org.jetbrains.kotlin:kotlin-stdlib"
     open-pull-requests-limit: 0
