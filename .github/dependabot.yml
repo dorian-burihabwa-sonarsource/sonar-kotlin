@@ -9,7 +9,7 @@ updates:
     schedule:
       interval: "daily"
   - package-ecosystem: "maven"
-    directory: "/its/plugin/projects/tests-surefire-suffix"
+    directory: "/its/plugin/projects/tests-with-submodule"
     ignore:
       - dependency-name: "org.jetbrains.kotlin:kotlin-stdlib"
       - dependency-name: "junit:junit"
@@ -17,7 +17,7 @@ updates:
     schedule:
       interval: "daily"
   - package-ecosystem: "maven"
-    directory: "/its/plugin/projects/tests-surefire-suffix"
+    directory: "/its/plugin/projects/tests-without-main-code"
     ignore:
       - dependency-name: "org.jetbrains.kotlin:kotlin-stdlib"
       - dependency-name: "junit:junit"
