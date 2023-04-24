@@ -4,6 +4,23 @@ updates:
     directory: "/its/plugin/projects/tests-surefire-suffix"
     ignore:
       - dependency-name: "org.jetbrains.kotlin:kotlin-stdlib"
+      - dependency-name: "junit:junit"
+    open-pull-requests-limit: 0
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "maven"
+    directory: "/its/plugin/projects/tests-surefire-suffix"
+    ignore:
+      - dependency-name: "org.jetbrains.kotlin:kotlin-stdlib"
+      - dependency-name: "junit:junit"
+    open-pull-requests-limit: 0
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "maven"
+    directory: "/its/plugin/projects/tests-surefire-suffix"
+    ignore:
+      - dependency-name: "org.jetbrains.kotlin:kotlin-stdlib"
+      - dependency-name: "junit:junit"
     open-pull-requests-limit: 0
     schedule:
       interval: "daily"
