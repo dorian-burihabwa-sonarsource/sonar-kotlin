@@ -3,3 +3,5 @@ updates:
   - package-ecosystem: "maven"
     directory: "/its/plugin/projects/tests-surefire-suffix/"
     open-pull-requests: 0
+    schedule:
+      interval: "daily"
